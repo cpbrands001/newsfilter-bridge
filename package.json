@@ -1,0 +1,13 @@
+{
+  "name": "newsfilter-bridge",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  }
+}
