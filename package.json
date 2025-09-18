@@ -1,13 +1,20 @@
 {
-  "name": "newsfilter-bridge",
+  "name": "finnhub-n8n-bridge",
   "version": "1.0.0",
+  "description": "WebSocket bridge between FinHub and N8n",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "ws": "^8.14.2",
     "axios": "^1.6.0",
-    "express": "^4.18.2",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
